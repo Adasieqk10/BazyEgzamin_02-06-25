@@ -1,0 +1,128 @@
+body {
+    font-family: Tahoma;
+    margin: 0;
+}
+
+header {
+    background: rgb(128, 72, 72);
+    height: 200px;
+    margin: auto;
+    position: relative;
+}
+
+nav {
+    border-top: 0.1px solid transparent;
+    background: wheat;
+    height: 150px;
+}
+
+main {
+    display: flex;
+}
+
+.lewy {
+    width: 60%;
+    background: #ffddee;
+    height: 350px;
+}
+
+.prawy {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+.prawy-1 {
+    height: 200px;
+    background: blue;
+    position: relative;
+}
+
+.prawy-2 {
+    height: 150px;
+    background: orange;
+}
+
+footer {
+    display: flex;
+}
+
+.stopka-1 {
+    height: 80px;
+    width: 80%;
+    background: red;
+}
+
+.stopka-2 {
+    height: 80px;
+    width: 20%;
+    background: pink;
+}
+
+img {
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+h3 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+a {
+    color: green;
+    text-decoration: none;
+    font-size: 170%;
+    height: 100%;
+    width: 100%;
+}
+
+h1,
+h4,
+h5 {
+    text-align: center;
+}
+
+table,
+th,
+td {
+    border: 1px solid brown;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+table {
+    width: 100%;
+}
+
+.nav-table-td {
+    margin: auto;
+    width: 300px;
+    height: 70px;
+    text-align: center;
+    background: yellow;
+}
+
+.nav-table-td:hover {
+    background: aliceblue;
+}
+
+h5 {
+    margin: 0;
+    padding: 0;
+}
+
+.prawy-2 p {
+    text-align: center;
+    text-decoration: underline;
+}
+
+button[type="submit"],
+button[type="reset"],
+input {
+    width: 100%;
+}
